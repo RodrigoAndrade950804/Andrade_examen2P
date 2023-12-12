@@ -29,7 +29,7 @@ void imprimirDetalle() {
     }
 }
 
-// Función para obtener y mostrar el total de ingresos y egresos por insumo en todo el año
+// Función para obtener y mostrar el total de ingresos y egresos por insumo en todo el año.
 void obtenerTotales() {
     for (int i = 0; i < InsumosMaximos; i++) {
         int totalIngresos = 0, totalEgresos = 0, total;
